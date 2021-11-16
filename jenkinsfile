@@ -10,7 +10,7 @@ pipeline{
             steps{
                 script{
                     properties([
-                        parameter([
+                        parameters([
                             choice(name:'action',choices:['apply','destroy'],description:'perform terraform command'),
                         ])
                     ])
