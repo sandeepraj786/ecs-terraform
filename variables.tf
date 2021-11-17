@@ -10,5 +10,5 @@ variable "aws_secret_key" {
 
 variable "region" {
   description = "The AWS region to create resources in."
-  default = "es-east-2"
+  default = "us-east-2"
 }
